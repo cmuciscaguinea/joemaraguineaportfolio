@@ -1,6 +1,7 @@
 import React from 'react'
-import { FaFacebookF, FaInstagram, FaLinkedinIn, FaPhp } from "react-icons/fa";
+import { FaFacebookF, FaLinkedinIn, FaPhp } from "react-icons/fa";
 import { SiFlutter, SiFigma, SiLaravel } from "react-icons/si";
+import { FiGlobe } from "react-icons/fi";
 const Media = () => {
   return (
     <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
@@ -9,7 +10,7 @@ const Media = () => {
             Find me in
           </h2>
           <div className="flex gap-4">
-            <span className="bannerIcon">
+            {/* <span className="bannerIcon">
               <FaFacebookF />
             </span>
             <span className="bannerIcon">
@@ -17,7 +18,18 @@ const Media = () => {
             </span>
             <span className="bannerIcon">
               <FaLinkedinIn />
-            </span>
+            </span> */}
+
+
+            <a href="https://joemaraguinea.netlify.app/" target="_blank" rel="noopener noreferrer" className="bannerIcon">
+              <FiGlobe />
+            </a>
+            <a href="https://www.linkedin.com/in/joemar-aguinea/" target="_blank" rel="noopener noreferrer" className="bannerIcon">
+              <FaLinkedinIn />
+            </a>
+            <a href="https://www.facebook.com/JoemarMaglasangAguinea" target="_blank" rel="noopener noreferrer" className="bannerIcon">
+              <FaFacebookF />
+            </a>
           </div>
         </div>
         <div>
