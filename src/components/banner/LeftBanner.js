@@ -25,7 +25,7 @@ const LeftBanner = () => {
             cursorColor="#ff014f"
           />
         </h2>
-        <p className="text-base font-bodyFont leading-6 tracking-wide">
+        <p className=" text-justify text-base font-bodyFont leading-6 tracking-wide">
         I am a BSIT student majoring in Software Development at Central Mindanao University, 
         located in University Town, Musuan, Maramag, Bukidnon, Philippines. 
         I specialize in building dynamic web applications using Laravel and crafting clean, 
