@@ -1,6 +1,7 @@
 import React from 'react'
-import { FaFacebookF, FaLinkedinIn, FaInstagram } from "react-icons/fa";
+import { FaFacebookF, FaLinkedinIn,  } from "react-icons/fa";
 import { contactImg } from "../../assets/index";
+import { FiGlobe } from "react-icons/fi";
 
 const ContactLeft = () => {
   return (
@@ -20,7 +21,7 @@ const ContactLeft = () => {
           ipsam autem cumque, accusantium dicta odio.
         </p> */}
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Phone: <span className="text-lightText">+63 9091098880</span>
+          Phone: <span className="text-lightText">+639268378176</span>
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
           Email: <span className="text-lightText">aguineajoemar@gmail.com</span>
@@ -29,7 +30,7 @@ const ContactLeft = () => {
       <div className="flex flex-col gap-4">
         <h2 className="text-base uppercase font-titleFont mb-4">Find me in</h2>
         <div className="flex gap-4">
-          <span className="bannerIcon">
+          {/* <span className="bannerIcon">
             <FaFacebookF />
           </span>
           <span className="bannerIcon">
@@ -37,7 +38,17 @@ const ContactLeft = () => {
           </span>
           <span className="bannerIcon">
             <FaLinkedinIn />
-          </span>
+          </span> */}
+
+          <a href="https://joemaraguinea.netlify.app/" target="_blank" rel="noopener noreferrer" className="bannerIcon">
+            <FiGlobe />
+          </a>
+          <a href="https://www.linkedin.com/in/joemar-aguinea/" target="_blank" rel="noopener noreferrer" className="bannerIcon">
+            <FaLinkedinIn />
+          </a>
+          <a href="https://www.facebook.com/JoemarMaglasangAguinea" target="_blank" rel="noopener noreferrer" className="bannerIcon">
+            <FaFacebookF />
+          </a>
         </div>
       </div>
     </div>
