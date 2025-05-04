@@ -16,20 +16,20 @@ const Achievement = () => {
         </div>
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="College Scholarship"
-            subTitle="Central Mindanao University (2020-2021)"
-            result="Completed"
-            des="I was awarded a full scholarship to study at Central Mindanao University."
-          />
-          <ResumeCard
-            title="CHED Tulong Dunong Scholarship"
-            subTitle="Central Mindanao University (2022-2023)"
-            result="Completed"
-            des="I was awarded a full scholarship to study at Central Mindanao University."
-          />
-          <ResumeCard
             title="CHED Tulong Dunong Scholarship"
             subTitle="Central Mindanao University (2024-2025)"
+            result="Completed"
+            des="I was awarded a full scholarship to study at Central Mindanao University."
+          />
+          <ResumeCard
+             title="CHED Tulong Dunong Scholarship"
+             subTitle="Central Mindanao University (2022-2023)"
+             result="Completed"
+             des="I was awarded a full scholarship to study at Central Mindanao University."
+          />
+          <ResumeCard
+            title="College Scholarship"
+            subTitle="Central Mindanao University (2020-2021)"
             result="Completed"
             des="I was awarded a full scholarship to study at Central Mindanao University."
           />
