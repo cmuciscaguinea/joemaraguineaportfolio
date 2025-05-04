@@ -18,19 +18,19 @@ const Achievement = () => {
           <ResumeCard
             title="College Scholarship"
             subTitle="Central Mindanao University (2020-2021)"
-            result="Success"
+            result="Completed"
             des="I was awarded a full scholarship to study at Central Mindanao University."
           />
           <ResumeCard
             title="CHED Tulong Dunong Scholarship"
             subTitle="Central Mindanao University (2022-2023)"
-            result="Success"
+            result="Completed"
             des="I was awarded a full scholarship to study at Central Mindanao University."
           />
           <ResumeCard
             title="CHED Tulong Dunong Scholarship"
             subTitle="Central Mindanao University (2024-2025)"
-            result="Success"
+            result="Completed"
             des="I was awarded a full scholarship to study at Central Mindanao University."
           />
         </div>
