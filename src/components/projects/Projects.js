@@ -20,7 +20,8 @@ const Projects = () => {
           title="Beginnging Reading English Fuller App"
           des="This App was Capstone Project also is an innovative mobile learning tool designed to enhance reading skills which integrates phonics, vocabulary building, and alphabet mastery to support early literacy development among grades 1 to 3 students using the Fuller Approach."
           src={projectOne}
-          github="https://github.com/cmuciscaguinea/english_fuller"
+          github="https://play.google.com/store/apps/details?id=com.cisckids.beginningreading"
+          // github="https://github.com/cmuciscaguinea/english_fuller"
         />
         <ProjectsCard
           title="MES Enrollment System UX/UI Design"
