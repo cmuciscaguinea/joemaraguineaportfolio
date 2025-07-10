@@ -19,7 +19,7 @@ const Education = () => {
           <ResumeCard
             title="Bachelor of Science in Information Technology"
             subTitle="Central Mindanao University (2020 - 2025)"
-            subTitle="College of Information Sciences and Computing (2020 - 2025)"
+            // subTitle="College of Information Sciences and Computing (2020 - 2025)"
             result="Graduated"
             des="Central Mindanao University is a public university in the Philippines located in Musuan, Maramag, Bukidnon."
           />
