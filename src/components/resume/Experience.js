@@ -16,6 +16,12 @@ const Experience = () => {
         </div>
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
+              title="Computer Laboratory Technician"
+              subTitle="Central Mindanao University - (July 16, 2025 - Present)"
+              result="Employed"
+              des="I am currently employed at Central Mindanao University with the designation or Position of Computer Laboratory Technician under the College of Information Sciences and Computing College or Unit"
+            />
+          <ResumeCard
             title="On-the-Job Trainer"
             subTitle="Ghost Edit - (Janaury 28, 2025 - April 30, 2025)"
             result="Finished"
