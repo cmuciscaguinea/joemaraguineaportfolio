@@ -4,7 +4,13 @@ import Media from './Media';
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
-      words: ["UI/UX Designer.", "Web Developer.", "Mobile Developer.", "Video Editor."],
+      words: [
+        "Web Developer.",
+        "Mobile Developer.",
+        "UI/UX Designer.",
+        "Computer Laboratory Technician.",
+        "Video Editor."
+      ],
       loop: true,
       typeSpeed: 20,
       deleteSpeed: 10,
@@ -25,15 +31,13 @@ const LeftBanner = () => {
             cursorColor="#ff014f"
           />
         </h2>
-        <p className=" text-justify text-base font-bodyFont leading-6 tracking-wide">
-        I am a BSIT student majoring in Software Development at Central Mindanao University, 
-        located in University Town, Musuan, Maramag, Bukidnon, Philippines. 
-        I specialize in building dynamic web applications using Laravel and crafting clean, 
-        user-centered interface designs with Figma. 
-        My technical skill set spans both frontend and backend development, 
-        with additional experience in mobile app development using Flutter. 
-        I also have a growing passion for video editing, working on various projects such as podcasts, 
-        AI course videos, and SEO content.
+        <p className="text-base font-bodyFont leading-6 tracking-wide [text-align:justify]">
+          I'm a BSIT graduate specializing in Software Development with a passion for
+          creating modern web and mobile applications. I currently work as a Computer
+          Laboratory Technician at Central Mindanao University while continuously
+          improving my skills in Laravel, Flutter, UI/UX design, and cybersecurity.
+          I enjoy building user-focused digital solutions and exploring new
+          technologies that solve real-world problems.
         </p>
       </div>
      {/* Media */}
