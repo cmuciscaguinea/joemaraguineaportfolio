@@ -11,7 +11,7 @@ const Achievement = () => {
     >
       <div>
         <div className="py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2020 - 2025</p>
+          <p className="text-sm text-designColor tracking-[4px]">2026</p>
           <h2 className="text-4xl font-bold">My Scholarship</h2>
         </div>
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
@@ -34,6 +34,22 @@ const Achievement = () => {
             des="I was awarded a full scholarship to study at Central Mindanao University."
           />
         </div>
+      </div>
+
+      <div>
+        <div className="py-12 font-titleFont flex flex-col gap-4">
+          <p className="text-sm text-designColor tracking-[4px]">2026</p>
+          <h2 className="text-4xl font-bold">Certificates</h2>
+        </div>
+        <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+          <ResumeCard
+            title="TESDA Online Program"
+            subTitle="Microsoft Cybersecurity Course: Security, Compliance, and Identity Fundamentals"
+            result="Completed"
+            des={ "Certificate of Completion for the Microsoft Cybersecurity Course: Security, Compliance, and Identity Fundamentals. Awarded on: Thursday, 16 July 2026, 11:19 PM"
+            }
+          />
+      </div>
       </div>
       
     </motion.div>
