@@ -46,7 +46,7 @@ const ContactLeft = () => {
           <a href="https://www.linkedin.com/in/joemar-aguinea/" target="_blank" rel="noopener noreferrer" className="bannerIcon">
             <FaLinkedinIn />
           </a>
-          <a href="https://www.facebook.com/JoemarMaglasangAguinea" target="_blank" rel="noopener noreferrer" className="bannerIcon">
+          <a href="https://www.facebook.com/AguineaJoemar" target="_blank" rel="noopener noreferrer" className="bannerIcon">
             <FaFacebookF />
           </a>
         </div>
